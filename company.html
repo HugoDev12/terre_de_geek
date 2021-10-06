@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/company.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -20,14 +20,14 @@
 
 <body>
  
-<header>
+<header id="Header">
     <h1>Terre de Geek</h1>
     <aside>
         <a href="mailto:terredegeek@gmail.com">Contactez-nous</a>
     </aside>
 </header>
-
-
+    
+    
 <nav>
     <a href="index.html">Accueil</a>
     <a href="company.html">Qui sommes-nous?</a>
@@ -35,11 +35,16 @@
 </nav> 
 
 <main>
-<section>
+<section class="container">
     <h2>Notre entreprise</h2>
     <article>
+        <header>
         <h3>Nos locaux</h3>
+    </header>
+    <figure>
         <img src="img\locaux.jpg" alt="locaux Terre de Geek">
+    </figure>
+    <div class="infos">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
         Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
         Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
@@ -51,6 +56,7 @@
             Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
             Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
         </p>
+    </div>
     </article>
 </section>
 </main>
