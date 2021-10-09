@@ -33,7 +33,7 @@ ul {
 }
 
 
-/* ##################################################    Body    ################################################################## */
+/* ##################################################    Header    ################################################################## */
 
 header aside {
     font-size: smaller;
@@ -55,6 +55,68 @@ nav a {
     padding: 1em 0;
 }
 
+
+/* ######################################################   Form / Body   ################################################################## */
+
+main h2{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1em 0;
+    width: 100%;
+}
+
+input[type=text], [type="email"], [type="tel"], [type="date"]{
+    box-sizing: border-box;
+    padding: 0.5em 0;
+    margin: 0.5em 0;
+    border-style: none;
+    border-bottom: 1px solid rgb(255, 0, 0, 0.3);
+}
+
+
+input[type=text]{
+    width: auto;
+}
+
+
+
+input[type=submit] {
+    margin: 1em 0 1em 33%;
+    background-color: white;
+    padding: 10px 20px;
+    border-color: rgb(235, 91, 91, 0.5);
+    box-shadow: 0 0 2px 2px rgb(235, 91, 91, 0.2), 0 0 2px 2px rgb(235, 91, 91, 0.2);
+    transition: 200ms;
+
+    
+}
+
+
+input[type=submit]:hover{
+    background-color: rgb(235, 91, 91, 0.8);
+    color: white;
+    font-size: larger;
+    box-shadow: none;
+}
+
+textarea {
+    height: 15vh;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+    border-style: dashed;
+    border-bottom: none;
+    border-right: none;
+}
+
+
+/* ####################################################     Footer      ################################################################### */
+
 footer {
     background-color: rgb(168, 161, 161, 0.4);
     display: flex;
@@ -66,4 +128,40 @@ footer {
 
 footer div {
     font-size: x-small;
+}
+
+
+/* ###################################################     Media Queries   ################################################################# */
+
+@media screen and (min-width: 480px) {
+    main div {
+        width: 50vw;
+    }
+}
+
+
+@media screen and (min-width: 720px) {
+    footer {
+        padding: 0.5em 0;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    main div {
+        width: 40vw;
+        padding: 0 1em;
+        margin: 0.5em auto;
+    }
+
+    input[type=submit] {
+        margin-left: 40%;
+    }
+
+    footer div {
+        font-size: small;
+        margin-left: 12%;
+
+    }
+
 }
