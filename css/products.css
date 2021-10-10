@@ -131,11 +131,6 @@ footer div {
 
 @media screen and (min-width: 1024px) {
 
-
-    #Header {
-        padding: 1em 0;
-    }
-
     main p {
         width: 45%;
     }
