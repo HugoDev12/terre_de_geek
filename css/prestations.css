@@ -50,6 +50,31 @@ ul li {
 
 /* ###########################################################     Header     ############################################################ */
 
+
+header div figure {
+    width: 140px;
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 0;
+    z-index: 0;
+}
+
+header div figure img {
+    border-radius: 100%;
+    opacity: 0.3;
+}
+
+header div h1 {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px 5px black;
+    z-index: 1;
+}
+
+
+
+
 header aside {
     font-size: smaller;
     position: absolute;
@@ -95,7 +120,7 @@ table {
 
 table, th, td{
     text-align: center;
-    border: 2px ridge rgb(255, 0, 0, 0.3);
+    border: 2px ridge rgb(255, 152, 152, 0.3);
     border-collapse: collapse;
 }
 
@@ -122,6 +147,15 @@ footer div {
 }
 
 /* ###################################################     Media Queries    ################################################### */
+
+@media screen and (min-width: 724px) {
+
+    header aside {
+        right: 1.5em;
+        top: 1em;
+    }
+    
+}
 
 @media screen and (min-width: 1024px) {
 

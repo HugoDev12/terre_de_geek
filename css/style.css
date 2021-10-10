@@ -41,25 +41,6 @@ h3 {
 }
 
 
-header div figure {
-    width: 120px;
-    position: absolute;
-    left: 100px;
-    right: 100px;
-    top: 15px;
-    z-index: 0;
-}
-
-header div figure img {
-    border-radius: 100%;
-    opacity: 0.5;
-}
-
-header div h1 {
-    position: relative;
-    color: white;
-    z-index: 1;
-}
 
 /* ################################################     Classes and IDs     ################################################ */
 
@@ -109,6 +90,27 @@ header div h1 {
 /* ################################################     Header      ###################################################### */
 
 
+header div figure {
+    width: 140px;
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 0;
+    z-index: 0;
+}
+
+header div figure img {
+    border-radius: 100%;
+    opacity: 0.3;
+}
+
+header div h1 {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px 5px black;
+    z-index: 1;
+}
+
 header aside {
     font-size: smaller;
     position: absolute;
@@ -154,6 +156,12 @@ footer div {
 
 
 @media screen and (min-width: 720px){
+
+    header aside {
+        right: 1.5em;
+        top: 1em;
+    }
+
 
     main figure {
         height: 30vh;

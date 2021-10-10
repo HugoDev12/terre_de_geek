@@ -17,6 +17,10 @@ iframe {
     height: 350px;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -64,6 +68,29 @@ header aside {
     top: 0.3em;
     right: 0.3em;
 }
+
+
+header div figure {
+    width: 140px;
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    top: 0;
+    z-index: 0;
+}
+
+header div figure img {
+    border-radius: 100%;
+    opacity: 0.3;
+}
+
+header div h1 {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px 5px black;
+    z-index: 1;
+}
+
 
 
 nav {
@@ -117,6 +144,11 @@ footer div {
 /* #################################################   Media Queries    ################################################ */
 
 @media screen and (min-width: 720px) {
+
+    header aside {
+        right: 1.5em;
+        top: 1em;
+    }
 
     main div {
         display: flex;
