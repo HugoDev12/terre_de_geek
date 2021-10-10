@@ -216,11 +216,14 @@ h3 {
     display: block;
     max-width: 15%; 
     margin-top: 1em;
+    transition: 200ms;
 
 }
 
 .btn:hover{
     background-color: rgb(235, 91, 91, 0.8);
+    color: white;
+    border: none;
 }
 
 
@@ -339,10 +342,6 @@ footer div {
     nav {
         padding: 0.5em 0;
     }
-
-    /* footer {
-        padding: 0.5em 0;
-    } */
 
     footer div {
         font-size: small;
