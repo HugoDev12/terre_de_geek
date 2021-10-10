@@ -23,6 +23,11 @@ ul {
     list-style: none;
 }
 
+ul li {
+    margin: 0.5em 0;
+    margin-left: 1em;
+}
+
 
 
 /* #################################################      Classes and IDs     ###################################################### */
@@ -33,6 +38,7 @@ ul {
     background-color: rgb(255, 246, 221);
     align-items: center;
     justify-content: center;
+    padding: 2em 0;
 
 }
 
@@ -69,7 +75,7 @@ nav {
 
 nav a {
     font-size: smaller;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 
@@ -145,6 +151,7 @@ footer div {
 
     footer div {
         font-size: small;
+        margin-left: 12%;
     }
 
 }

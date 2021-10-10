@@ -29,6 +29,7 @@ ul {
     background-color: rgb(255, 246, 220);
     align-items: center;
     justify-content: center;
+    padding: 2em 0;
 
 }
 
@@ -52,7 +53,7 @@ nav {
 
 nav a {
     font-size: smaller;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 
